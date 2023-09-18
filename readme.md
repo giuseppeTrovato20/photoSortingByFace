@@ -1,13 +1,27 @@
 # Photo sorting by face
 
-This Python app allows you to automatically organize photos based on the person in the photo, with face recognition technology.
+This Python app allows you to automatically organize photos in a folder, based on the person in the photo, with face recognition technology.
+
+ex:
+- Desktop
+    - photo1.png => in this photo there is a person
+    - photo2.png => same person of photo1
+    - photo3.png => different person from photo1
+    - photo4.png => same person of photo3
+    - photo5.png => another person
+    
+it creates sub-folders
+- Desktop
+    - person0 
+        - photo1.png
+        - photo2.png
+    - person1
+        - photo3.png
+        - photo4.png
+    - person2
+        - photo5.png
 
 ## How it works
-
-run 
-```
-python main.py
-```
 
 it works this way:
     - Highlight a folder from the GUI
@@ -49,6 +63,14 @@ Follow these steps to set up your local development environment:
     pip install -r requirements.txt
     ```
 
+## How to run
+
+run 
+```
+python main.py
+```
+
 Now, you should be able to run the project in your local development environment.
 
 
+Contributions are welcome.
