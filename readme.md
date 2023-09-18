@@ -40,7 +40,7 @@ Follow these steps to set up your local development environment:
 
 2. Navigate into the cloned project:
     ```
-    cd photo-sorting-by-face
+    cd photoSortingByFace
     ```
 
 3. Create a new virtual environment using Python's `venv` module:
