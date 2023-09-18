@@ -35,7 +35,7 @@ Follow these steps to set up your local development environment:
 
 1. Clone the repository:
     ```
-    git clone https://github.com/giuseppetrovato20/photo-sorting-by-face.git
+    git clone https://github.com/giuseppetrovato20/photoSortingByFace.git
     ```
 
 2. Navigate into the cloned project:
