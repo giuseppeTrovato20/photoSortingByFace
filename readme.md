@@ -3,7 +3,7 @@
 This Python app allows you to automatically organize photos in a folder, based on the person in the photo, with face recognition technology.
 
 ex:
-- Desktop
+- myPhotos
     - photo1.png => in this photo there is a person
     - photo2.png => same person of photo1
     - photo3.png => different person from photo1
@@ -11,7 +11,7 @@ ex:
     - photo5.png => another person
     
 it creates sub-folders
-- Desktop
+- myPhotos
     - person0 
         - photo1.png
         - photo2.png
