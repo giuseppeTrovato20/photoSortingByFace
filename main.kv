@@ -5,12 +5,14 @@
     FileChooserIconView:
         id: filechooser
         dirselect: True
-        size_hint_y: 0.9
-    AnchorLayout:
+        size_hint_y: 0.7
+    BoxLayout:
         size_hint_y: 0.1
+        orientation: 'horizontal'
         Button:
             text: "Select"
-            size_hint: 0.2, 1
+            size_hint_x: 0.2
             on_release: root.select()
-            anchor_x: 'right'
-            anchor_y: 'bottom'
+    Label:
+        size_hint_y: 0.2
+        text: root.status_text
