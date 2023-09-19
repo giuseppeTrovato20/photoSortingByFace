@@ -1,1 +1,2 @@
-kivy_env
+kivy_venv
+__pycache__
